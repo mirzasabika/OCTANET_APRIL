@@ -1,0 +1,247 @@
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+  position: sticky;
+  top:0;
+  z-index: 100;
+}
+html,body{
+  font-family:"Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
+.main-heading{
+    width:100%;
+   height:65px;
+    box-shadow: 4px 7px 5px rgba(0,0,0,0.5);
+    background:linear-gradient(-255deg,#c850c0,#4158d0,#d01548);
+    color:white;
+    display: flex;
+    justify-content: space-between;
+}
+.main-heading .logo{
+    margin-left: 20px;
+    text-shadow: 2px 2px 4px;
+    font-family:cursive;
+    font-size:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-heading ul{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 23px;
+  color:white;
+  font-weight: 300;
+  line-height: 1.4;
+  display: flex;
+  gap:22px;
+  justify-content: center;
+ align-items: center;
+  
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+ul{
+    list-style: none;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:40px ;
+}
+.main-heading ul li:hover{
+    border-bottom:2px solid white ;
+    transition: 0.2s ease-in;
+}
+.main-heading ul li:active{
+    color:#81307c;
+    transition: 0.2s ease-in;
+}
+.hero-section{
+    background-image: url(music_1\ \(2\).jpg);
+    height:100vh;
+    display: grid;
+    color:white;
+    place-items: center;
+    text-align: center;
+  }
+  .hero-section .container{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+  }
+  .container .para{
+    font-size: 22px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: monospace;
+  }
+  .container h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 96px;
+
+  }
+.container h3{
+  font-style: italic;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+}
+.music-section{
+  padding-top:50px ;
+  background-color:#27005d;
+}
+.music-section .container{
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+.image{
+  margin-top: -210px;
+  height: 500px;
+  position:relative;
+  top:210px;
+}
+.container button{
+   height:50px;
+   width:250px;
+   border:none;
+   border-radius: 6px;
+   padding:10px 15px;
+   transition: 0.2s ease-out;
+   background-color: rgb(155, 17, 17);
+   color: white;
+}
+button:hover{
+  opacity: 0.8;
+  transition: 0.2s ease-in ;
+}
+.music-section .container h2 {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 3rem;
+}
+.music-section .container p{
+  font-size: 23px;
+  font-family:monospace;
+  
+}
+.music-section .container h4{
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.sec-btn{
+background-color:#080011;
+color: white;
+height:40px;
+width:150px;
+font-size: 20px;
+
+}
+.about-music{
+  padding-top: 500px;
+  display: grid;
+  place-items: center;
+  gap:50px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: -200px;
+}
+.about-music p{
+  padding-left: 85px;
+  padding-right: 85px;
+  font-family:roboto;
+  font-size: 20px;
+}
+.about-music h3{
+  font-size: 30px;
+}
+.video-section{
+  background-image:url(giphy\ \(1\).gif);
+  background-size: cover;
+  min-height: 600px;
+  display: grid;
+  place-items: center;
+  text-align:left;
+  color:antiquewhite;
+
+}
+.video-section .video-container{
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+  margin-top: -100px;
+  padding-right: 75px;
+  padding-left: 75px;
+}
+.video-container h3{
+  font-size: 40px;
+}
+.hero-section,.video-section{
+  position: relative;
+  background-position: center;
+  block-size: cover;
+  background-repeat: no-repeat;
+
+}
+.gift-section{
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+  gap: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+ .gift-container button{
+   margin-top: 15px;
+ }
+ .gift-container{
+  display: flex;
+  flex-direction: column;
+ gap:20px;
+
+ }
+ .gift-container h3{
+   font-size: 45px;
+ }
+ .gift-card img{
+  height:300px;
+ }
+.footer-container{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #080011;
+  padding: 20px ;
+}
+.footer-content{
+  color:white;
+}
+.lower-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #13012c;
+  padding: 20px;
+  color:white;
+}
+.footer-upper h4{
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+  margin-bottom: 10px;
+}
+.section{
+  scroll-margin: 50px;
+}
+.gift-container section{
+  scroll-margin: 100px;
+}
